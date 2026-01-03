@@ -1,7 +1,7 @@
 
 ---
 
-app/webhooks/contributions.py
+# app/webhooks/contributions.py
 
 `python
 from fastapi import APIRouter, Request, Header
@@ -22,3 +22,4 @@ async def contributions_webhook(
     logger.info("Contribution event received")
     # TODO: Map events to contribution ledger
     return {"status": "ok", "webhook": "contributions"}
+`
