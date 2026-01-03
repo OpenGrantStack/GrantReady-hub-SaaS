@@ -1,26 +1,46 @@
-# GrantReady Hub
+# 📘 grantready-saas — README.md
 
-Enterprise-grade mobile collaboration platform for grant management teams.
+```md
 
-## Overview
+OpenGrantStack — GrantReady SaaS
 
-GrantReady Hub is a centralized SaaS service designed for government agencies, educational institutions, and compliance-driven organizations managing grant programs. The platform enables secure collaboration, approval workflows, and activity tracking across distributed teams.
+GrantReady SaaS is the front‑facing application layer of OpenGrantStack. It provides the user interface and workflow engine for grant applicants, reviewers, and administrators.
 
-## Key Features
+This repo contains the UI, onboarding flows, dashboards, and the design‑system‑driven components that power the GrantReady experience.
 
-### 🔐 Role-Based Access Control
-Granular permissions system with hierarchical role management designed for multi-agency collaboration.
+---
 
-### 📋 Approval Workflows
-Configurable multi-stage approval processes with parallel review, escalation paths, and audit trails.
+🚀 Purpose
 
-### 💬 Contextual Collaboration
-Threaded comments, @mentions, and file annotations with full version history.
+- Deliver a clean, accessible UI for grant workflows  
+- Integrate with the OpenGrantStack Hub and Ledger  
+- Provide authentication, onboarding, and user dashboards  
+- Serve as the primary interface for grant teams  
 
-### 📱 Mobile-First Design
-Progressive Web App (PWA) with offline capabilities and native mobile application parity.
+---
 
-### 🏛️ Compliance Ready
-Built for government security standards including FedRAMP Moderate, GDPR, and HIPAA compliance.
+📦 Features
 
-## Architecture
+- 🎨 Unified design system  
+- 🔐 Secure authentication  
+- 📊 Dashboard components  
+- 🧩 Modular UI architecture  
+- 🌐 API integration with Hub + Ledger  
+
+---
+
+📁 Repository Structure
+
+`
+/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── styles/
+│   └── api/
+├── public/
+├── docs/
+├── tests/
+└── README.md
+`
